@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional - Douglas Neves</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Douglas Neves</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>Bem-vindo(a) ao meu Portfólio</h2>
+            <p>Sou Douglas Neves, um profissional especializado em <span>Desenvolvimento Web</span> e <span>Design UX/UI</span>.</p>
+           </div>
+
+           
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Com mais de 5 anos de experiência em tecnologia, crio interfaces intuitivas e aplicações eficientes. Meu objetivo é transformar ideias em soluções inovadoras e práticas.</p>
+                    <a href="curriculo.pdf" target="_blank" class="btn-secondary">Baixar Currículo</a>
+                </div>
+                <img src="img/minha-foto.jpg" alt="Minha Foto" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="skills">
+        <div class="container">
+        <div> 
+            <h2>Habilidades</h2>
+        </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, Django, PHP</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Banco de Dados</h3>
+                    <p>MySQL, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Ferramentas</h3>
+                    <p>Git, Figma, VSCode, Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto, objetivos e tecnologias usadas.</p>
+                    <a href="#" target="_blank" class="btn-primary">Ver Projeto</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto, objetivos e tecnologias usadas.</p>
+                    <a href="#" target="_blank" class="btn-primary">Ver Projeto</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do projeto, objetivos e tecnologias usadas.</p>
+                    <a href="#" target="_blank" class="btn-primary">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato para colaborações, perguntas ou qualquer outra informação. Preencha o formulário abaixo!</p>
+            
+            <div class="contact-grid">
+                <!-- Formulário -->
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" placeholder="Assunto da Mensagem" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+    
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <h3>Meus Contatos</h3>
+                    <p><strong>Email:</strong>nevesdevsuport@gmail.com</p>
+                    <p><strong>Telefone:</strong>(91) 99386-3113</p>
+                    <p><strong>Localização:</strong> Cametá, Pará, Brasil</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/qr/ILFGX4UHOG7SM1" target="_blank">WhatsApp</a>
+                        <a href="https://github.com/Douglasneves7" target="_blank">GitHub</a>
+                        <a href="https://www.instagram.com/neves.bkz/" target="_blank">instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Douglas Neves. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
